@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'FundamentosAngular';
+
+  nome = 'Thiago';
+
+  adicionar(nomeInput: any) {
+    this.nome = nomeInput;
+  }
 }
