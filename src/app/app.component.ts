@@ -10,7 +10,11 @@ export class AppComponent {
 
   nome = 'Thiago';
 
-  adicionar(nomeInput: any) {
-    this.nome = nomeInput;
+  adicionar() {
+
+    const numero = Math.round(Math.random() * 100);
+    this.nome = 'João ' + numero;
   }
+
+
 }
